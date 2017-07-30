@@ -1,11 +1,11 @@
 const Promise = require("bluebird");
 
 /**
- * @param {!Object.<function.Promise.<Any>>} promiseObject. Each key maps to a function
+ * @param {!Object.<function.<Promise.<Any>>>} promiseObject. Each key maps to a function
  * that returns a promise.
  * @returns {!Promise.<Object.<Any>>} The results of the promises passed to the function.
  */
-module.exports = function sequentialPromise(promiseObject) {
+module.exports = function sequentialPromiseNamed(promiseObject) {
     const result = Object.keys(promiseObject).reduce(
         (reduced, key) => {
             return {
