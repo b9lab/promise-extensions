@@ -1,0 +1,10 @@
+{
+  "name": "promise-extensions",
+  "dependencies": {
+    "bluebird": "registry:npm/bluebird#3.5.0+20170314181206",
+    "chai": "registry:npm/chai#3.5.0+20160723033700",
+    "debug": "registry:npm/debug#2.0.0+20160723033700"
+  },
+  "globalDependencies": {
+  }
+}

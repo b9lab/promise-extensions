@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "exclude": [
+        "node_modules",
+        "reports"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "bluebird",
+            "chai",
+            "chai-rx",
+            "debug",
+            "ipld-dag-pb",
+            "lodash",
+            "rx",
+            "sinon",
+            "sinon-chai"
+        ]
+    }
+}
