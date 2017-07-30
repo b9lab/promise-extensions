@@ -1,0 +1,22 @@
+{
+  "name": "promise_extensions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.5.0",
+    "chai": "4.1.0",
+    "mocha": "3.4.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/node": "^8.0.17",
+    "jshint": "2.9.5",
+    "typings": "^2.1.1"
+  }
+}
